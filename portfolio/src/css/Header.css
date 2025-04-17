@@ -1,0 +1,28 @@
+.profile-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .header {
+    backdrop-filter: blur(10px);
+    background-color: #ffffffcc !important; /* slightly transparent white */
+    z-index: 1030;
+    margin: 0 12rem;
+    border-radius: 40px; /* make it more rounded */
+    margin-top: 2rem;
+   
+    border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+    transition: all 0.3s ease-in-out;
+  }
+  @media (max-width: 768px) {
+    .header {
+      margin: 0 1rem;
+      border-radius: 20px;
+    }
+  }
+  
+  
+  

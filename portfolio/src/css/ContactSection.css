@@ -1,0 +1,52 @@
+.contact-section {
+    border-radius: 20px;
+    margin: 0 2rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    color: white;
+  }
+  
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #ffcc00;
+    border-radius: 10px;
+  }
+  
+  .form-control::placeholder {
+    color: #ddd;
+  }
+  
+  .form-control:focus {
+    border-color: #ffcc00;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+ 
+.Toastify__toast-container {
+    backdrop-filter: blur(10px); 
+   
+    border-radius: 15px; 
+    
+
+  }
+  
+  .Toastify__toast {
+    background: rgba(255, 255, 255, 0.5); 
+    color: #fff; /* Text color */
+    border-radius: 10px; 
+  }
+  
+  

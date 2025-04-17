@@ -1,0 +1,35 @@
+/* .about-section {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    margin: 0 2rem;
+  } */
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    max-width: 900px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+  }
+  .typing-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .typewriter-effect {
+    background: linear-gradient(90deg, #ffcc00, #ff6a00, #ff00c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+  }
+  
+  
+  

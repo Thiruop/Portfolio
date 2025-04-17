@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
+/* index.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
   color: white;
+  scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  cursor: pointer;
+}
+
+/* Optional: Remove outline on click (can customize for accessibility) */
+button:focus,
+a:focus {
+  outline: none;
+}
+
+/* Fix Bootstrap container spacing for fluid layout */
+.container-fluid {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Scrollbar styling (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
 }
