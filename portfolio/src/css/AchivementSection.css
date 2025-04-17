@@ -1,0 +1,39 @@
+.achievement-block {
+    gap: 1rem;
+  }
+  
+  .achievement-img img {
+    width: 160px;
+    max-width: 100%;
+    border-radius: 12px;
+    
+  }
+  
+  .achievement-desc {
+    flex: 1;
+    padding: 0 1rem;
+    max-width: 580px;
+  }
+  
+  .achievement-desc h5 {
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .achievement-desc p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .achievement-desc a {
+    display: inline-block;
+    margin-top: 0.25rem;
+    color: #0dcaf0;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .achievement-desc a:hover {
+    color: #ffc107;
+  }
+  
