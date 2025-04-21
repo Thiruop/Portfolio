@@ -1,6 +1,7 @@
 .contact-section {
     border-radius: 20px;
-    margin: 0 2rem;
+   
+    
   }
   
   .section-title {
@@ -18,22 +19,7 @@
     color: white;
   }
   
-  .form-control {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #fff;
-    border: 1px solid #ffcc00;
-    border-radius: 10px;
-  }
   
-  .form-control::placeholder {
-    color: #ddd;
-  }
-  
-  .form-control:focus {
-    border-color: #ffcc00;
-    box-shadow: none;
-    background-color: rgba(255, 255, 255, 0.15);
-  }
  
 .Toastify__toast-container {
     backdrop-filter: blur(10px); 
@@ -45,8 +31,79 @@
   
   .Toastify__toast {
     background: rgba(255, 255, 255, 0.5); 
-    color: #fff; /* Text color */
+    color: #fff; 
     border-radius: 10px; 
   }
   
-  
+
+  /* ContactSection.css */
+
+.form-control {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(5px);
+  color: #fff !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.form-control:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 1px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+
+
+.btn-send {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(5px);
+  color: #fff !important;
+  transition: all 0.3s ease-in-out !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-send:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+.btn-send:active,
+.btn-send:focus {
+  background: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.btn-send:hover::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transform: rotate(45deg);
+  animation: shine 1.5s infinite;
+}
+
+@keyframes shine {
+  0% { left: -50% }
+  100% { left: 150% }
+}

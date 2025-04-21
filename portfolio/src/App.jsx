@@ -8,20 +8,24 @@ import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
 import SkillSection from "./components/SkillSection";
 import AchivementSection from "./components/AchivementSection";
+import BackgroundVideo from "./components/BackGroundVideo"; // ✅ keep this
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import ChatBot from "./components/ChatBot";
 
 
 
 
 export default function App() {
   return (
-    <div>
+    <div className="app-wrapper position-relative">
+      <BackgroundVideo /> 
+
       <Header />
 
       <main className="container-fluid pt-5 mt-5">
-        <section id="home" className="mt-20">
+        <section id="home" className="my-5">
           <HeroSection />
         </section>
 
@@ -40,6 +44,7 @@ export default function App() {
         <section id="projects" className="my-5">
           <ProjectSection />
         </section>
+
         <section id="achivements" className="my-5">
           <AchivementSection />
         </section>
@@ -48,8 +53,12 @@ export default function App() {
           <ContactSection />
         </section>
       </main>
-
+      
+   
+      {/* Footer */}
       <Footer />
+      <ChatBot />
     </div>
+    
   );
 }

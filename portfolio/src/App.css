@@ -1,43 +1,7 @@
-/* index.css */
-
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+  background-color: transparent;
   color: white;
   scroll-behavior: smooth;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-/* Optional: Remove outline on click (can customize for accessibility) */
-button:focus,
-a:focus {
-  outline: none;
-}
-
-/* Fix Bootstrap container spacing for fluid layout */
-.container-fluid {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-/* Scrollbar styling (optional) */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: transparent;
 }
