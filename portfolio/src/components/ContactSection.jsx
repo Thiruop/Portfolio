@@ -65,7 +65,7 @@ export default function ContactSection() {
         <div className="row g-4">
           {/* Left: Your Info */}
           <div className="col-md-5">
-            <div className="glass-card p-4 h-100">
+            <div className="p-4">
               <h5 className="text-warning">Thirumoorthi Murugesan</h5>
               <p className="text-white mb-1">
                 <strong>Email:</strong> thirumoorthim2200@gmail.com
@@ -114,7 +114,7 @@ export default function ContactSection() {
 
           {/* Right: Form */}
           <div className="col-md-7">
-            <form ref={form} onSubmit={sendEmail} className="glass-card p-4">
+            <form ref={form} onSubmit={sendEmail} >
               <div className="row mb-3">
                 <div className="col-md-6 mb-3">
                   <input
@@ -164,11 +164,11 @@ export default function ContactSection() {
                 ></textarea>
               </div>
               <button
-                type="submit"
-                className="btn btn-warning fw-bold mt-2"
-              >
-                Send Message
-              </button>
+  type="submit"
+  className="btn btn-send fw-bold mt-2 d-block mx-auto"
+>
+  Send Message
+</button>
             </form>
           </div>
         </div>
