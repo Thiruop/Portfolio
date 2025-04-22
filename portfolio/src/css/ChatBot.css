@@ -60,7 +60,7 @@
   
   .chat-messages {
     flex: 1;
-    padding: 1rem;
+    padding: 1 rem;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -92,6 +92,8 @@
   .chat-input {
     padding-bottom: 1rem;
     padding-top: 1rem;
+   
+    padding-right: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
     gap: 5px;

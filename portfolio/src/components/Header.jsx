@@ -13,7 +13,7 @@ export default function Header() {
       <div className=" d-flex justify-content-between align-items-center">
         {/* Left: Profile image and name */}
         <div className="d-flex align-items-center gap-3">
-          <img src={profileImage} alt="Thirumoorthi Murugesan" className="profile-img me-3" />
+          <img src={profileImage} alt="Thirumoorthi Murugesan" className="profile-img " />
           <h5 className="mb-0 text-white">Thirumoorthi Murugesan</h5>
         </div>
 
