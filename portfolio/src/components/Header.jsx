@@ -20,11 +20,11 @@ export default function Header() {
         {/* Right: Navigation links */}
         <nav className="d-flex align-items-center gap-4">
           
-          <a href="#profile" className="nav-link text-black">Profile</a>
-          <a href="#about" className="nav-link text-black">About</a>
-          <a href="#experience" className="nav-link text-black">Experience</a>
-          <a href="#projects" className="nav-link text-black">Projects</a>
-          <a href="#achivements" className="nav-link text-black">Achivements</a>
+          <a href="#profile" className="nav-link text-white">Profile</a>
+          <a href="#about" className="nav-link text-white">About</a>
+          <a href="#experience" className="nav-link text-white">Experience</a>
+          <a href="#projects" className="nav-link text-white">Projects</a>
+          <a href="#achivements" className="nav-link text-white">Achivements</a>
           <button className="btn btn-warning fw-bold px-3" onClick={scrollToContact}>
             Contact
           </button>
